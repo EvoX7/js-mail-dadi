@@ -1,4 +1,16 @@
 .my_container {
-    
+    text-align: center;
+    background-color: rgb(78, 250, 135);
+    border-radius: 25px;
+   
 
+}
+
+body {
+    background-color: rgb(4, 69, 4);
+   
+}
+
+h1 {
+    font-size: 70px;
 }

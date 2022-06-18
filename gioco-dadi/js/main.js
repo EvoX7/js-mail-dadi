@@ -21,6 +21,12 @@ let randomNumberC = Math.ceil(Math.random() * 6);
 
 
 // Rolling the dice using js loop 
+let buttonClick = document.getElementById("roll-button");
+
+
+
+buttonClick.addEventListener("click", function(){
+
 for (let diceRoll = 1; diceRoll <= 6; diceRoll++) {
 
     // If numbers are equal, there is a draw
@@ -45,6 +51,7 @@ for (let diceRoll = 1; diceRoll <= 6; diceRoll++) {
     }
 
 }
+})
 
 console.log(computer + " " + randomNumberC);
 console.log(player + " " + randomNumberP);
