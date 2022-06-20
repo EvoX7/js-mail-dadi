@@ -15,17 +15,17 @@ const computer = ("Computer");
 // Defining how many roll sides 
 let diceRoll;
 
+// Defining the click button on screen
+let buttonClick = document.getElementById("roll-button");
+
+// Create a button to click 
+buttonClick.addEventListener("click", function(){
+
 // Defining how many chanches player and computer have with each sides 
 let randomNumberP = Math.ceil(Math.random() * 6);
 let randomNumberC = Math.ceil(Math.random() * 6);
 
 
-// Rolling the dice using js loop 
-let buttonClick = document.getElementById("roll-button");
-
-
-
-buttonClick.addEventListener("click", function(){
 
 for (let diceRoll = 1; diceRoll <= 6; diceRoll++) {
 

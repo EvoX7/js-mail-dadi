@@ -9,7 +9,7 @@ console.log(userMail);
 
 // Creo la mia lista di email 
 // My Array 
-const mailList = ["splintercell@ubisoft.com", "wonderwoman@gmail.com", "marvelous753@tesla.com", "lore17@gmail.com", "elden-ring@fromsoftware.com", "masseffect@bioware.com", "thelastofus2@naughtydog.com", "uncharted@naughtydog.com", "ghostwiretokyo6@tangogameworks.com", "hellblade2@ninjatheory.com", "godofwar2022@santamonicastudio.com", "bioshock@g2kgames.com", "residentevil8@capcom.com", "watchdogs3@ubisoft.com", "callofduty@acivision.com",];
+const mailList = ["splintercell@ubisoft.com", "wonderwoman@gmail.com", "marvelous753@tesla.com", "lore17@gmail.com", "elden-ring@fromsoftware.com", "masseffect@bioware.com", "thelastofus2@naughtydog.com", "uncharted@naughtydog.com", "ghostwiretokyo6@tangogameworks.com", "hellblade2@ninjatheory.com", "godofwar2022@santamonicastudio.com", "bioshock@g2kgames.com", "residentevil8@capcom.com", "watchdogs3@ubisoft.com", "callofduty@activision.com",];
 console.log(mailList);
 
 // Imposto check e messaggio di risposta per l'utente
